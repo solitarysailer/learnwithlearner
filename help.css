@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+
+}
+.heading1{
+    color: #092234;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin-top: 16%;
+/* Remove this after maintainance */
+    margin-bottom: 16%;
+
+    font-size: larger;
+    text-align: center;
+    /* align-content: center; */
+}
+
+/* .sub_heading1{
+    display: block;
+    font-size: larger;
+    color: grey;
+    text-align: center;
+    align-items: center;
+} */
+
+/* .register-last-h2{
+    display: block;
+    color: #f8800; 
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 16%;
+}
+.register-last-h2:hover{
+    color:#092234;
+    cursor:grab;
+    counter-increment: inherit;
+} */

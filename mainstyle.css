@@ -1,0 +1,334 @@
+/* <<< Style part >>> */
+/* Main div And first div Accordingly  */
+
+body {
+    margin: 1px;
+    background-color: white;
+    color: #ff8800;
+    /* font-family: Inter,sans-serif; */
+    height: 100%;
+    font-size: 17px;
+    line-height: 1.57142857;
+    font-weight: 400;
+}
+#internships .section_description {
+    margin-bottom: 0;
+    color:#092234;
+}
+.max-width-container {
+    max-width: 1224px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#internships .categories_container {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+/* Side Text Color And Design */
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #ff8800;
+    cursor: pointer;
+    line-height: 1.14285714;
+}
+
+.view_all_cta{
+    color: #092234;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div {
+    display: block;
+}
+div h4{
+    font-size: 20px;
+}
+body {
+    font-family: 'Inter var',sans-serif;
+}
+.scrollable_cards .card_item:first-of-type {
+    margin-left: 1px;
+    border-color: #092234;
+}
+.scrollable_cards .card_item {
+    display: table-column;
+    padding: 16px 4px 24px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 10px 7px;
+    width: 140px;
+    height: 156px;
+    color: #092234;
+    border-color: #092234;
+}
+
+.scrollable_cards .card_item .text {
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+    /* font-weight: bold; */
+    border-color: #092234;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.38;
+    margin-top: 16px;
+}
+.scrollable_cards .card_item .text {
+    font-family: 'Inter var',sans-serif;
+}
+.scrollable_cards >.card_item >.text:hover{
+    color: #ff8800;
+    /* border: 1px solid black; */
+}
+.scrollable_cards .card_item{
+    box-shadow: 0.25px 0.5px 1px 1px #092234;
+    border-radius: 10px;
+}
+.scrollable_cards .card_item:hover {
+    box-shadow: 0.25px 0.5px 4px 2px #092234;
+    border-radius: 4px;
+}
+
+.scrollable_cards .card_item:last-of-type {
+    align-items: center;
+}
+
+/* After div in left side the text */
+
+.view_all_cta_container_20_more {
+    text-align: center;
+    margin-top: 24px;
+}
+.view_all_cta_container_20_more:hover {
+    cursor:context-menu;
+    /* text-decoration-color: #ff8800;
+    text-shadow: #ff8800; */
+}
+
+
+#trainings #trainings_container {
+  margin-top: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#trainings #trainings_container .card_item {
+  height: 172px;
+  padding: 16px 8px 18px;
+  margin: 10px 7px;
+  /* border-radius: 2px;
+  border-color: #092234;
+  box-sizing: border-box; */
+}
+#trainings #trainings_container .card_item:first-of-type {
+  margin-left: 0;
+}
+#trainings #trainings_container .card_item:last-of-type {
+  margin-right: 0;
+}
+.section .section_description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #484848;
+}
+/* training page */
+
+.max-width-container11{
+    color: #092234;
+    /* align-items: center; */
+}
+.section_description11{
+    color:#484848;
+}
+
+.training-last-h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#092234;
+}
+
+
+/* .categories_container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+} */
+.categories {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.scrollable_cards {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+/* For left side buttons click */
+
+.section .section_description .view_all_cta {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view_all_cta {
+    font-family: 'Inter var',sans-serif;
+}
+.view_all_cta {
+    display: flex;
+    justify-content: center;
+    min-width: 328px;
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+}
+
+.view_all_cta1{
+color: #092234;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: center;
+font-size:xx-large;
+}
+
+.view_all_cta2{
+align-items:center;
+text-align: center;
+font-weight: bold;
+color: #484848;
+}
+
+.view_all_cta_container_20_more{
+    color: #092234;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+/* For arrow buttom In every part*/
+
+.ic-24-arrow-right:after {
+  content: "";
+  display: inline-block !important;
+  width: 0;
+  height: 0;
+  border-left: 8px solid #092234;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  vertical-align: middle;
+
+}
+
+.ic-24-arrow-right:before {
+  width: 8px;
+  height: 2px;
+  background:#092234;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Ra-One{
+    align-items: center;
+    margin-left: 45%;
+    color: #092234;
+    font-size: larger;
+    /* font-display:inherit; */
+    text-decoration: underline #092234;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Ra-One:hover{
+    color: #ff8800;
+    text-decoration-color: #092234;
+    text-decoration: underline #ff8800;
+    
+
+}
+
+/* last div */
+
+.section:last-of-type {
+    padding-bottom: 104px;
+}
+.section {
+    padding-top: 4px;
+    padding-bottom: 1.5px;
+}
+.container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+#fresher_jobs_container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-around;
+    
+}
+#fresher_jobs #fresher_jobs_container .fresher_job_perk .img {
+    height: 88px;
+    width: 88px;
+}
+
+#fresher_jobs #fresher_jobs_container .fresher_job_perk .name {
+    font-size: 16px;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: 8px;
+    text-align: center;
+}
+#fresher_jobs #fresher_jobs_container .fresher_job_perk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 64px 32px;
+}
+#fresher_jobs .superscript {
+    background: #FF8C00;
+    border-radius: 3px;
+    color: #000;
+    font-size: 18px;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+    padding: 4px 16px;
+    margin-left: 4px;
+    position: relative;
+    bottom: 4px;
+}

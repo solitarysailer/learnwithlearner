@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+header {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1px;
+  font-weight: bolder;
+  box-shadow: 0 2px 3px 1px white;
+  font-display:inherit;
+  background-color: #092234;
+}
+
+.nav_links > li,
+a,
+button {
+  font-family: "Inter var", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color:#ffff;
+  text-decoration:solid;
+  margin-right: 5px;
+}
+
+#signOut:hover {
+  color: #ff8800;
+}
+#register {
+  background-color: #ff8800;
+  color:black;
+}
+
+.logo {
+  cursor: pointer;
+  margin-top: 0;
+  margin-right: auto;
+}
+
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav_links li a:hover {
+  color:#white;
+}
+
+.headingbutton {
+  padding: 9px 25px;
+  color: #ff8800;
+  border: 1px solid white;
+  background-color: #092234;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.headingbutton:hover {
+  background-color: #ff8800;
+  color: white;
+  box-shadow: 0 2px 3px 1px  whitesmoke;
+}
+#register:hover {
+  background-color: #092234;
+  color: #ff8800;
+}
+
+#headOffer {
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#searchbox {
+  padding: 20px;
+  justify-content: center;
+  color: #092234;
+  display: flex;
+  border-radius: 0.50px;
+}
+#searchbox > input {
+  height: 45px;
+  width: 500px;
+  padding: 0px 10px;
+  border: 2px solid #092234;
+  border-radius: 0.50px;
+  font-size: 18px;
+}
+#searchIcon {
+  color:white;
+  background-color: #092234;
+  padding: 5px;
+  width: 45px;
+  text-shadow: #fffdfd;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  font-size: 24px;
+}
+
+#carasol {
+  margin: 30px;
+  width: 1052px;
+  height: 352px;
+  border-radius: 8px;
+  margin-bottom: 5px !important;
+}
+#slider {
+  text-align: center;
+  display: flex;
+}
+#dot > div {
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  background-color:#000;
+  margin: 10px;
+}
+#dot {
+  display: flex;
+  justify-content: center;
+}
+
+#five {
+  width: 30px !important;
+  margin: 10px;
+  border-radius: 10px;
+  height: 15px;
+  background-color:#ff8800 !important;
+}
+
+.slide {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 180px !important;
+}
+#button1 {
+  margin-left: 40px !important;
+}
+#button1,
+#btn2 {
+  background-color: #092234;
+  color: #ff8800;
+  font-size: 30px;
+  border:#092234;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+#carasol:hover {
+  box-shadow: 0.25px 0.5px 5px 2.5px #ff8800;
+}
+#btn2:hover {
+  box-shadow: 0.25px 0.5px 5px 2.5px #ff8800;;
+}
+#button1:hover {
+  box-shadow: 0.25px 0.5px 5px 2.5px #f80;
+}
+
+.register_btn {
+  background-color: #000;
+}
+
+.register_btn:focus,
+.register_btn:hover {
+  box-shadow: none !important;
+  background-color: #ff8800;
+}
